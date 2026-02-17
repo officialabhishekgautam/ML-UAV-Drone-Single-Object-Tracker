@@ -1,4 +1,4 @@
-# 🚁 ML-UAV-Single-Object-Tracker
+# ML UAV Single Object Tracker
 
 A **machine learning-powered single object tracking system** optimized for **UAV/drone footage** with robust camera motion compensation and real-time performance.
 
@@ -366,50 +366,6 @@ self.size_model = RandomForestRegressor(
 )
 ```
 
----
-
-## 🐛 Troubleshooting
-
-### Issue: Low Tracking Accuracy
-**Solution:**
-- Increase `nfeatures` in ORB/SIFT
-- Adjust `scale_levels` and `scale_factor`
-- Retrain with more diverse dataset
-
-### Issue: Slow Performance
-**Solution:**
-- Reduce `nfeatures` in SIFT
-- Decrease `scale_levels`
-- Use smaller video resolution
-- Enable GPU acceleration
-
-### Issue: Template Drift
-**Solution:**
-- Implement template update strategy
-- Increase SIFT matching threshold
-- Add more training data with occlusions
-
----
-
-## 📜 License
-
-**Apache License 2.0**
-
-This project is open source and free to use, modify, and distribute.  
-See [LICENSE](LICENSE) file for details.
-
-```
-Copyright 2024 [Your Name]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-```
-
----
-
 ## 🙌 Acknowledgments
 
 - **OpenCV** - Computer vision library
@@ -417,48 +373,6 @@ You may obtain a copy of the License at
 - **Gradio** - Web interface framework
 - **Classical Trackers** - Inspiration from KCF, MOSSE, CSRT algorithms
 - **Computer Vision Community** - For research and datasets
-
----
-
-## 👤 Author
-
-**Your Name**  
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Areas for Contribution:
-- [ ] Add deep learning tracker comparison
-- [ ] Implement template update mechanism
-- [ ] Add multi-object tracking support
-- [ ] Optimize for mobile devices
-- [ ] Add more evaluation metrics
-
----
-
-## 📚 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@software{ml_uav_tracker_2024,
-  author = {Your Name},
-  title = {ML-UAV-Single-Object-Tracker},
-  year = {2024},
-  url = {https://github.com/yourusername/ML-UAV-Single-Object-Tracker}
-}
-```
 
 ---
 
@@ -480,16 +394,4 @@ If you use this project in your research, please cite:
 
 If you find this project useful, please consider giving it a star! ⭐
 
----
 
-## 📞 Contact & Support
-
-- **Issues:** [GitHub Issues](https://github.com/yourusername/ML-UAV-Single-Object-Tracker/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/ML-UAV-Single-Object-Tracker/discussions)
-- **Email:** your.email@example.com
-
----
-
-**Built with ❤️ for the Computer Vision Community**
-
-*Last Updated: February 2026*
